@@ -46,3 +46,12 @@ body {
    font-size: 3rem;
    font-weight: 500;
 }
+
+.scheduleDemo {
+   clip-path: polygon(92.3% 0%, 100% 57%, 92.2% 100%, 0% 100%, 0% 0%);
+   background-color: #8bc540;
+   min-height: 15vh;
+}
+.colorWhite {
+   background-color: white;
+}

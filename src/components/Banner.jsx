@@ -8,13 +8,13 @@ export default function Banner() {
             <div className="min-60vh d-flex flex-column justify-content-center">
                <div className="headlineSection d-flex align-items-center">
                   <MDBContainer>
-                     <MDBRow className="d-flex justify-content-center p-0 m-0">
-                        <MDBRow>
+                     <MDBRow className="d-flex justify-content-center p-0 py-4 m-0">
+                        <div>
                            <MDBCol md={6} className="">
                               <div className="d-flex flex-column justify-content-center">
-                                 <div className="d-flex align-items-baseline m-0 p-0">
+                                 <div className="d-md-flex d-block align-items-baseline m-0 p-0">
                                     <img className="mx-2" src={image1} alt="" />
-                                    <h2 className="fw-normal">
+                                    <h2 className="fw-normal m-0 d-flex ">
                                        <em>The</em>
                                     </h2>
                                  </div>
@@ -26,14 +26,29 @@ export default function Banner() {
                                  </h2>
                               </div>
                            </MDBCol>
-                        </MDBRow>
+                        </div>
                      </MDBRow>
                   </MDBContainer>
                </div>
             </div>
             <div className="min-40vh d-flex flex-column justify-content-center">
                <div className="">
-                  <MDBContainer></MDBContainer>
+                  <MDBContainer>
+                     <MDBRow className="colorWhite">
+                        <MDBCol
+                           md={4}
+                           className="scheduleDemo d-flex justify-content-center align-items-center flex-column"
+                        >
+                           <h1 className="text-light">SCHEDULE A DEMO</h1>
+                           <h4 className="text-light fw-normal">
+                              Learn More About FloQast.
+                           </h4>
+                        </MDBCol>
+                        <MDBCol md={8}>
+                           <h1>Hello</h1>
+                        </MDBCol>
+                     </MDBRow>
+                  </MDBContainer>
                </div>
             </div>
          </div>
