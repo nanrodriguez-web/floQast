@@ -81,7 +81,7 @@ export default function Banner() {
                                  required
                                  label="First Name*"
                                  className="w-100 p-2"
-                              ></MDBInput>
+                              />
                            </MDBCol>
                            <MDBCol md={4} className="px-1 my-3 my-md-0">
                               <MDBInput
@@ -93,7 +93,7 @@ export default function Banner() {
                                  required
                                  label="Email*"
                                  className="w-100 p-2"
-                              ></MDBInput>
+                              />
                            </MDBCol>
                            <MDBCol md={4} className="px-1 my-2 my-md-0">
                               <MDBBtn
